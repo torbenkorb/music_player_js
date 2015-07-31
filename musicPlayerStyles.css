@@ -1,0 +1,82 @@
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+body {
+	font: 1em/1.5 arial, verdana, sans-serif;
+	max-width: 960px;
+	margin: 5% auto;
+	background-color: #d8d8d8;
+}
+
+main {
+	box-shadow: 1px 1px 5px #a5a5a5;
+}
+
+
+ol#playlist {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol li {
+	background-color: #fafafa;
+	width: 100%;
+	padding: .5em 1em;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #e5e5e5;
+	color: #7e7e7e;
+	position: relative;
+}
+
+
+.current {
+	background-color: #27a7fa;
+	color: #ffffff;
+	border-top-color: rgba(0,0,0,0.1);
+}
+
+.duration {
+	float: right;
+}
+
+
+button {
+	font: inherit;
+	background-color: #ffffff;
+	border: 0;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	color: #a5a5a5;
+	cursor: pointer;
+	padding: .2em 1.5em;
+	margin-right: 1em;
+}
+
+button:last-of-type {
+	margin-right: 0;
+}
+
+
+
+h1 {
+	background-color: #f4f4f4;
+	color: #a5a5a5;
+	margin: 0;
+	padding: .2em 0;
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+	border-radius: 5px 5px 0 0;
+}
+
+.controls {
+	background-color: #f4f4f4;
+	text-align: center;
+	border-radius: 0 0 5px 5px;
+	padding: 1em 0;
+}
+
